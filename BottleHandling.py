@@ -22,7 +22,7 @@ class Bottle:
         if poe < 0:
             raise ValueError('Error! Amount to be added cannot be negative.')
         if (self._volume + poe) > self._capacity:
-            raise ValueError('The new volume exceeds the bottle's capacity.')
+            raise ValueError('The new volume exceeds the bottles capacity.')
         else:
             self._volume += poe
 
